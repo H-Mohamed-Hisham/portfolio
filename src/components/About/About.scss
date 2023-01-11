@@ -1,0 +1,38 @@
+.about {
+  flex-direction: column;
+  margin-top: 8em;
+
+  .name {
+    color: var(--clr-primary);
+  }
+
+  .role {
+    margin-top: 1.2em;
+  }
+
+  .desc {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+
+  .desc,
+  .contact {
+    margin-top: 2.4em;
+  }
+
+  .link-icon {
+    margin-right: 0.8em;
+    font-size: 26px;
+  }
+
+  .btn-outline {
+    margin-right: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 6em;
+  }
+}
