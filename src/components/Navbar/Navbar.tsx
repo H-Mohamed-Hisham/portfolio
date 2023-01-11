@@ -8,7 +8,9 @@ import { MdClose } from "react-icons/md";
 import { ThemeContext } from "../../contexts/theme";
 
 // Data
-import { projects, skills, contact, experiences } from "data/portfolio";
+import { skills, contact } from "data/portfolio";
+import { experiences } from "data/experiences";
+import { projects } from "data/projects";
 
 // SCSS
 import "./Navbar.scss";

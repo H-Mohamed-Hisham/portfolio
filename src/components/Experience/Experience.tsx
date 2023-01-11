@@ -1,5 +1,5 @@
 // Data
-import { experiences } from "data/portfolio";
+import { experiences } from "data/experiences";
 
 // CSS
 import "./Experience.scss";
