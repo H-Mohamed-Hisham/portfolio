@@ -1,10 +1,12 @@
+import aboutpic from "assets/Hisham.png";
+
 const header = {
   homepage: "https://morganbb104.github.io/HW_20_Portfolio_withReact/",
   title: "< H />",
 };
 
 const about = {
-  photo: "",
+  photo: aboutpic,
   name: "MOHAMED HISHAM",
   role: "Full stack developer",
   description:

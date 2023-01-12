@@ -12,11 +12,12 @@ const About = () => {
 
   return (
     <div className="about center">
-      {photo && <img height="200px" alt="Avatar placeholder" src={photo} />}
+      {photo && <img alt="Hisham" src={photo} />}
       {name && (
-        <h1>
-          Hi, I am <span className="name">{name}.</span>
-        </h1>
+        // <h1>
+        //   <span className="name">{name}.</span>
+        // </h1>
+        <h1 className="name">{name}.</h1>
       )}
 
       {role && <h2 className="role">A {role}.</h2>}

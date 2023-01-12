@@ -1,11 +1,11 @@
-import { useContext, useState } from "react";
-import { MdBrightness2 } from "react-icons/md";
-import { MdWbSunny } from "react-icons/md";
-import { MdMenu } from "react-icons/md";
-import { MdClose } from "react-icons/md";
-
-// Context
-import { ThemeContext } from "../../contexts/theme";
+import { Link, withRouter } from "react-router-dom";
+import {
+  MdPersonOutline,
+  MdLaptop,
+  MdOutlineWorkOutline,
+  MdOutlineGrade,
+  MdOutlineContactPage,
+} from "react-icons/md";
 
 // Data
 import { skills, contact } from "data/portfolio";
@@ -16,78 +16,64 @@ import { projects } from "data/projects";
 import "./Navbar.scss";
 
 const Navbar = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
-  const [showNavList, setShowNavList] = useState(false);
-
-  const toggleNavList = () => setShowNavList(!showNavList);
-
   return (
-    <nav className="center">
-      <ul style={{ display: showNavList ? "flex" : "" }} className="nav-list">
+    <div className="nav-container">
+      <nav className="nav-list">
+        <div className="nav-item ">
+          <Link to="/">
+            <div className="nav-link nav-active">
+              <MdPersonOutline />
+              <span>About Me</span>
+            </div>
+          </Link>
+        </div>
+
         {experiences.length ? (
-          <li className="nav-item">
-            <a
-              href="#experience"
-              onClick={toggleNavList}
-              className="link link-nav"
-            >
-              Experiences
-            </a>
-          </li>
+          <div className="nav-item">
+            <Link to="/experiences">
+              <div className="nav-link">
+                <MdOutlineWorkOutline />
+                <span>Experiences</span>
+              </div>
+            </Link>
+          </div>
         ) : null}
 
         {projects.length ? (
-          <li className="nav-item">
-            <a
-              href="#projects"
-              onClick={toggleNavList}
-              className="link link-nav"
-            >
-              Projects
-            </a>
-          </li>
+          <div className="nav-item">
+            <Link to="/projects">
+              <div className="nav-link">
+                <MdLaptop />
+                <span>Projects</span>
+              </div>
+            </Link>
+          </div>
         ) : null}
 
         {skills.length ? (
-          <li className="nav-item">
-            <a href="#skills" onClick={toggleNavList} className="link link-nav">
-              Skills
-            </a>
-          </li>
+          <div className="nav-item">
+            <Link to="/skills">
+              <div className="nav-link">
+                <MdOutlineGrade />
+                <span>Skills</span>
+              </div>
+            </Link>
+          </div>
         ) : null}
 
         {contact.email ? (
-          <li className="nav-item">
-            <a
-              href="#contact"
-              onClick={toggleNavList}
-              className="link link-nav"
-            >
-              Contact
-            </a>
-          </li>
+          <div className="nav-item">
+            <Link to="/contact">
+              <div className="nav-link">
+                <MdOutlineContactPage />
+                <span>Contact</span>
+              </div>
+            </Link>
+          </div>
         ) : null}
-      </ul>
-
-      <button
-        type="button"
-        onClick={toggleTheme}
-        className="btn btn-icon nav-theme"
-        aria-label="toggle theme"
-      >
-        {theme === "dark" ? <MdWbSunny /> : <MdBrightness2 />}
-      </button>
-
-      <button
-        type="button"
-        onClick={toggleNavList}
-        className="btn btn-icon nav-hamburger"
-        aria-label="toggle navigation"
-      >
-        {showNavList ? <MdClose /> : <MdMenu />}
-      </button>
-    </nav>
+      </nav>
+    </div>
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);
