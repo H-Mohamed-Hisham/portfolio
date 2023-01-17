@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { MdLaunch } from "react-icons/md";
-import { Modal } from "react-responsive-modal";
-import "react-responsive-modal/styles.css";
+import { useHistory } from "react-router-dom";
 
 // CSS
 import "./ProjectContainer.scss";
@@ -12,11 +11,16 @@ type props = {
 };
 
 const ProjectContainer: React.FC<props> = ({ project }) => {
-  const [open, setOpen] = useState(false);
+  const history = useHistory();
 
   return (
     <>
-      <div className="project" onClick={() => setOpen(true)}>
+      <div
+        className="project"
+        onClick={() => {
+          history.push(`project/${project.id}`);
+        }}
+      >
         <h3>{project.name}</h3>
 
         <p className="description">{project.description}</p>
@@ -50,22 +54,6 @@ const ProjectContainer: React.FC<props> = ({ project }) => {
           </a>
         )}
       </div>
-
-      {/* Modal */}
-      <Modal
-        open={open}
-        onClose={() => {
-          setOpen(false);
-        }}
-        center
-      >
-        <h2>Simple centered modal</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-          hendrerit risus, sed porttitor quam.
-        </p>
-      </Modal>
     </>
   );
 };

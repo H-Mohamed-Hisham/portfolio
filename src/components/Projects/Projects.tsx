@@ -56,7 +56,7 @@ const Projects = () => {
   return (
     <>
       {!projects.length ? null : (
-        <section id="projects" className="section">
+        <section className="section">
           <h2 className="title">Projects</h2>
 
           <div className="filter-container">

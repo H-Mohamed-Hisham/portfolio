@@ -10,6 +10,7 @@ import Experience from "components/Experience/Experience";
 import Projects from "components/Projects/Projects";
 import Skills from "components/Skills/Skills";
 import Footer from "components/Footer/Footer";
+import ProjectDetail from "components/ProjectDetail/ProjectDetail";
 
 // SCSS
 import "./App.scss";
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/contact" component={Experience} />
+          <Route exact path="/project/:id" component={ProjectDetail} />
         </main>
 
         <Footer />

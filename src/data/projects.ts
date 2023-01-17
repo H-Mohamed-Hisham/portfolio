@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 1,
+    id: "1",
     name: "MH-Shop",
     description:
       "Online Shopping Application With Stripe Payment & Admin Dashboard",
@@ -30,7 +30,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: "2",
     name: "SONY",
     description: "Metrics Monitoring Application",
     projectDomain: "React",
@@ -45,7 +45,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: "3",
     name: "Real Estate",
     description:
       "US Based Real Estate Agency Specializes In The Sales And Rentals Of Vacation And Investment Homes.",
@@ -59,7 +59,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: "4",
     name: "Real Estate",
     description:
       "US Based Real Estate Agency Specializes In The Sales And Rentals Of Vacation And Investment Homes.",
@@ -73,7 +73,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: "5",
     name: "Tennis Club",
     description:
       "US Based Private Tennis Club. The club features tennis leagues, many social activities only open to members. Players can register membership through online & payment can be done through Credit Card or PayPal.",

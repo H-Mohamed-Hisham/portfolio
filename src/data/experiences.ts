@@ -13,7 +13,7 @@ const experiences = [
       },
     ],
     location: "Bangalore, Karnataka",
-    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1663851698/Portfolio/react_rmzcnt.png",
+    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1673967181/Portfolio/Company/Ampcome_abocpy.png",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const experiences = [
       },
     ],
     location: "Mayiladuthurai, Tamil Nadu",
-    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1663852458/Portfolio/php_sqxl8m.png",
+    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1673967181/Portfolio/Company/McLanSys_ysplb2.png",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const experiences = [
       },
     ],
     location: "Chennai, Tamil Nadu",
-    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1663939862/Portfolio/dotnet_osygyh.png",
+    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1673967181/Portfolio/Company/Software-Cubes_dvbjio.png",
   },
 ];
 

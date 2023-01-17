@@ -8,7 +8,7 @@ const Experience = () => {
   if (!experiences.length) return null;
 
   return (
-    <section id="experience" className="section">
+    <section className="section">
       <h2 className="title">Experiences</h2>
 
       <div className="experience">
@@ -16,7 +16,10 @@ const Experience = () => {
           <ul className="list">
             {experiences.map((experience, index) => (
               <li key={index} className="item">
-                <h4>{experience.organisation}</h4>
+                <div className="timeline-title-img">
+                  <img src={experience?.icon} alt="IMG" />
+                  <h4>{experience.organisation}</h4>
+                </div>
                 <p className="timeline-location">{experience.location}</p>
                 <ul>
                   {experience.designation.map((d, idx) => (
