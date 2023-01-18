@@ -1,14 +1,13 @@
-import { Link, withRouter } from "react-router-dom";
+import { Link, withRouter, useLocation } from "react-router-dom";
 import {
   MdPersonOutline,
   MdLaptop,
   MdOutlineWorkOutline,
-  MdOutlineGrade,
-  MdOutlineContactPage,
+  MdOutlineSchool,
 } from "react-icons/md";
 
 // Data
-import { skills, contact } from "data/portfolio";
+import { educations } from "data/portfolio";
 import { experiences } from "data/experiences";
 import { projects } from "data/projects";
 
@@ -16,12 +15,16 @@ import { projects } from "data/projects";
 import "./Navbar.scss";
 
 const Navbar = () => {
+  const { pathname } = useLocation();
+
   return (
     <div className="nav-container">
       <nav className="nav-list">
         <div className="nav-item ">
           <Link to="/">
-            <div className="nav-link nav-active">
+            <div
+              className={pathname === "/" ? "nav-link nav-active" : "nav-link"}
+            >
               <MdPersonOutline />
               <span>About Me</span>
             </div>
@@ -31,7 +34,13 @@ const Navbar = () => {
         {experiences.length ? (
           <div className="nav-item">
             <Link to="/experiences">
-              <div className="nav-link">
+              <div
+                className={
+                  pathname === "/experiences"
+                    ? "nav-link nav-active"
+                    : "nav-link"
+                }
+              >
                 <MdOutlineWorkOutline />
                 <span>Experiences</span>
               </div>
@@ -42,7 +51,11 @@ const Navbar = () => {
         {projects.length ? (
           <div className="nav-item">
             <Link to="/projects">
-              <div className="nav-link">
+              <div
+                className={
+                  pathname === "/projects" ? "nav-link nav-active" : "nav-link"
+                }
+              >
                 <MdLaptop />
                 <span>Projects</span>
               </div>
@@ -50,23 +63,18 @@ const Navbar = () => {
           </div>
         ) : null}
 
-        {skills.length ? (
+        {educations.length ? (
           <div className="nav-item">
-            <Link to="/skills">
-              <div className="nav-link">
-                <MdOutlineGrade />
-                <span>Skills</span>
-              </div>
-            </Link>
-          </div>
-        ) : null}
-
-        {contact.email ? (
-          <div className="nav-item">
-            <Link to="/contact">
-              <div className="nav-link">
-                <MdOutlineContactPage />
-                <span>Contact</span>
+            <Link to="/qualifications">
+              <div
+                className={
+                  pathname === "/qualifications"
+                    ? "nav-link nav-active"
+                    : "nav-link"
+                }
+              >
+                <MdOutlineSchool />
+                <span>Qualifications</span>
               </div>
             </Link>
           </div>

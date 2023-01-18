@@ -1,11 +1,10 @@
 const projects = [
   {
     id: "1",
-    name: "MH-Shop",
-    description:
-      "Online Shopping Application With Stripe Payment & Admin Dashboard",
+    name: "MH Shop",
+    description: `Online shopping application which allows consumers to directly buy goods. Payments are integrated with one of the popular payment API STRIPE. Admins can add, edit or delete the product & monitor the orders from consumers. Consumers can sign up & monitor their order status.`,
     projectDomain: "React",
-    sourceCode: null,
+    sourceCode: "https://github.com/H-Mohamed-Hisham/mhshop",
     livePreview: "https://mhshopapp.herokuapp.com/",
     stack: [
       "React",
@@ -15,6 +14,7 @@ const projects = [
       "Stripe",
       "Bootstrap",
       "CSS",
+      "Heroku",
     ],
     screenshots: [
       "https://res.cloudinary.com/hm-hisham/image/upload/v1665947634/Portfolio/MH-Shop/Home_ni7o2s.png",
@@ -75,12 +75,11 @@ const projects = [
   {
     id: "5",
     name: "Tennis Club",
-    description:
-      "US Based Private Tennis Club. The club features tennis leagues, many social activities only open to members. Players can register membership through online & payment can be done through Credit Card or PayPal.",
+    description: `US Based Private Tennis Club. The club features tennis leagues, many social activities only open to members.  It allows you to add tournament details, participant details and also it allows us to map tournament bracket. Players can register membership through online & payment can be done through Credit Card or PayPal.`,
     projectDomain: "PHP",
     sourceCode: null,
     livePreview: null,
-    stack: ["PHP", "JavaScript", "MySQL", "HTML", "CSS"],
+    stack: ["PHP", "JavaScript", "MySQL", "HTML", "CSS", "PayPal"],
     screenshots: [
       "https://res.cloudinary.com/hm-hisham/image/upload/v1666118473/Portfolio/PHP/Home_u75mko.jpg",
       "https://res.cloudinary.com/hm-hisham/image/upload/v1666118473/Portfolio/PHP/Championship_ybgkqi.jpg",

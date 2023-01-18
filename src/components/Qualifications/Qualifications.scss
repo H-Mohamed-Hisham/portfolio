@@ -1,4 +1,4 @@
-.experiences {
+.qualifications {
   display: flex;
   justify-content: center;
 
@@ -43,28 +43,23 @@
             height: 40px;
             width: 40px;
             margin-right: 12px;
+            object-fit: cover;
           }
         }
 
-        .location {
-          margin-bottom: 1rem;
+        .text {
+          margin-bottom: 0.5rem;
         }
 
-        .designation {
-          list-style: circle;
-          padding-left: 12px;
-
-          li {
-            font-size: 15px;
-            margin-bottom: 4px;
-          }
-        }
+        // .text {
+        //   margin-bottom: 1rem;
+        // }
       }
     }
   }
 
   @media (max-width: 300px) {
-    .experiences {
+    .qualifications {
       .timeline {
         width: 100%;
         padding: 30px 5px 30px 10px;

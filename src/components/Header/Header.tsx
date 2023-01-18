@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { MdBrightness2 } from "react-icons/md";
 import { MdWbSunny } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 // Context
 import { ThemeContext } from "../../contexts/theme";
@@ -26,15 +27,20 @@ const Header = () => {
           title
         )}
       </h3>
-      <button
-        type="button"
-        onClick={toggleTheme}
-        className="btn btn-icon nav-theme"
-        aria-label="toggle theme"
-      >
-        {theme === "dark" ? <MdWbSunny /> : <MdBrightness2 />}
-      </button>
-      {/* <Navbar /> */}
+      <div className="button">
+        <Link to="/contact" className="btn btn-outline">
+          Contact
+        </Link>
+
+        <button
+          type="button"
+          onClick={toggleTheme}
+          className="btn btn-icon nav-theme"
+          aria-label="toggle theme"
+        >
+          {theme === "dark" ? <MdWbSunny /> : <MdBrightness2 />}
+        </button>
+      </div>
     </header>
   );
 };

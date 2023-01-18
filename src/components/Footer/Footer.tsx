@@ -1,11 +1,16 @@
+// Data
+import { about } from "data/portfolio";
+
 // SCSS
 import "./Footer.scss";
 
 const Footer = () => (
   <footer className="footer">
     <a
-      href="https://github.com/Morganbb104/HW_20_Portfolio_withReact"
+      href={about?.social?.github}
       className="link footer-link"
+      rel="noreferrer"
+      target="_blank"
     >
       Created By Mohamed Hisham
     </a>

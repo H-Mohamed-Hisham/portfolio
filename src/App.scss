@@ -151,7 +151,7 @@ main {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
+  text-transform: capitalize;
   transition: transform 0.2s ease-in-out;
 
   &.btn-outline {
@@ -208,3 +208,7 @@ main {
     transform: translateY(-5px);
   }
 }
+
+// Grid Style
+
+@import url("./Grid.scss"); ;

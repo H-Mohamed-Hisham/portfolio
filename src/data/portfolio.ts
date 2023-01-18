@@ -1,12 +1,11 @@
-import aboutpic from "assets/Hisham.png";
-
 const header = {
   homepage: "https://morganbb104.github.io/HW_20_Portfolio_withReact/",
   title: "< H />",
 };
 
 const about = {
-  photo: aboutpic,
+  photo:
+    "https://res.cloudinary.com/hm-hisham/image/upload/v1674046611/Portfolio/Hisham_ijbhk5.png",
   name: "MOHAMED HISHAM",
   role: "Full stack developer",
   description:
@@ -14,7 +13,7 @@ const about = {
   resume:
     "https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing",
   social: {
-    linkedin: "https://www.linkedin.com/in/cheng-chien-huang-912467152/",
+    linkedin: "https://www.linkedin.com/in/mohamed-hisham-aa30838a/",
     github: "https://github.com/H-Mohamed-Hisham",
   },
 };
@@ -26,7 +25,15 @@ const educations = [
     institute: "SRM University",
     location: "Chennai, Tamil Nadu",
     year: "2013 - 2017",
-    logo: "https://static.kabaddiadda.com/images/playerImages/aiiu/7310_SRM_University.png",
+    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674060285/Portfolio/Logo/srm-university_bulrn1.png",
+  },
+  {
+    id: 2,
+    degree: "Standard 12",
+    institute: "GGSM School",
+    location: "Mayiladuthurai, Tamil Nadu",
+    year: "2013",
+    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674060228/Portfolio/Logo/no-image_vqs8zn.png",
   },
 ];
 
@@ -55,4 +62,31 @@ const contact = {
   email: "mohamedhishamhaja@gmail.com",
 };
 
-export { header, about, skills, contact, educations };
+const courses = [
+  {
+    id: 1,
+    degree: "MERN eCommerce From Scratch",
+    institute: "Udemy",
+    location: "Online",
+    year: "2020",
+    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674061159/Portfolio/Logo/udemy_qpjmke.png",
+  },
+  {
+    id: 2,
+    degree: ".Net Developer",
+    institute: "Accord Info Matrix",
+    location: "Chennai, Tamil Nadu",
+    year: "2017",
+    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674061741/Portfolio/Logo/accord_gbxa0m.jpg",
+  },
+  {
+    id: 3,
+    degree: "Workshop ( Windows Application Development )",
+    institute: "SRM University",
+    location: "Chennai, Tamil Nadu",
+    year: "2015",
+    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674060285/Portfolio/Logo/srm-university_bulrn1.png",
+  },
+];
+
+export { header, about, skills, contact, educations, courses };

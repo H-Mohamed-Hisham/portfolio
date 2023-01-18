@@ -58,6 +58,8 @@ const ProjectDetail: React.FC<props> = ({ match }) => {
               href={project.sourceCode}
               aria-label="source code"
               className="link link-icon app-link"
+              rel="noreferrer"
+              target="_blank"
             >
               <AiFillGithub />
             </a>
@@ -68,6 +70,8 @@ const ProjectDetail: React.FC<props> = ({ match }) => {
               href={project.livePreview}
               aria-label="live preview"
               className="link link-icon app-link"
+              rel="noreferrer"
+              target="_blank"
             >
               <MdLaunch />
             </a>

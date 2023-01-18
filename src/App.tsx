@@ -8,7 +8,7 @@ import Navbar from "components/Navbar/Navbar";
 import About from "components/About/About";
 import Experience from "components/Experience/Experience";
 import Projects from "components/Projects/Projects";
-import Skills from "components/Skills/Skills";
+import Qualifications from "components/Qualifications/Qualifications";
 import Footer from "components/Footer/Footer";
 import ProjectDetail from "components/ProjectDetail/ProjectDetail";
 
@@ -28,7 +28,7 @@ function App() {
           <Route exact path="/" component={About} />
           <Route exact path="/experiences" component={Experience} />
           <Route exact path="/projects" component={Projects} />
-          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/qualifications" component={Qualifications} />
           <Route exact path="/contact" component={Experience} />
           <Route exact path="/project/:id" component={ProjectDetail} />
         </main>
