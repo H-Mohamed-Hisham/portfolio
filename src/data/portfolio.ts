@@ -1,5 +1,5 @@
 const header = {
-  homepage: "https://morganbb104.github.io/HW_20_Portfolio_withReact/",
+  homepage: "https://www.linkedin.com/in/mohamed-hisham-aa30838a/",
   title: "< H />",
 };
 
@@ -11,7 +11,7 @@ const about = {
   description:
     "Web developer with 3+ years of experience who is comfortable working with React, TypeScript, JavaScript, Redux, & responsive web design to deliver exceptional customer experience.",
   resume:
-    "https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing",
+    "https://res.cloudinary.com/hm-hisham/image/upload/v1674115231/Portfolio/Resume/Mohamed%20Hisham%20-%20Full%20Stack%20Developer.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/mohamed-hisham-aa30838a/",
     github: "https://github.com/H-Mohamed-Hisham",
@@ -62,7 +62,7 @@ const contact = {
   email: "mohamedhishamhaja@gmail.com",
 };
 
-const courses = [
+const certifications = [
   {
     id: 1,
     degree: "MERN eCommerce From Scratch",
@@ -73,7 +73,7 @@ const courses = [
   },
   {
     id: 2,
-    degree: ".Net Developer",
+    degree: ".Net Technology",
     institute: "Accord Info Matrix",
     location: "Chennai, Tamil Nadu",
     year: "2017",
@@ -89,4 +89,4 @@ const courses = [
   },
 ];
 
-export { header, about, skills, contact, educations, courses };
+export { header, about, skills, contact, educations, certifications };

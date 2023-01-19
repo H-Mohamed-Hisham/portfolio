@@ -1,5 +1,5 @@
 // Data
-import { educations, courses } from "data/portfolio";
+import { educations, certifications } from "data/portfolio";
 
 // SCSS
 import "./Qualifications.scss";
@@ -27,20 +27,20 @@ const Qualifications = () => {
         </div>
       </div>
 
-      <h2 className="title">Courses</h2>
+      <h2 className="title">Certifications</h2>
 
       <div className="qualifications">
         <div className="timeline">
           <ul className="list">
-            {courses.map((course, index) => (
+            {certifications.map((certification, index) => (
               <li key={index} className="item">
                 <div className="title-img">
-                  <img src={course?.logo} alt="IMG" />
-                  <h4>{course?.institute}</h4>
+                  <img src={certification?.logo} alt="IMG" />
+                  <h4>{certification?.institute}</h4>
                 </div>
-                <h5 className="text">{course?.degree}</h5>
-                <p className="text">{course?.year}</p>
-                <p className="text">{course.location}</p>
+                <h5 className="text">{certification?.degree}</h5>
+                <p className="text">{certification?.year}</p>
+                <p className="text">{certification.location}</p>
               </li>
             ))}
           </ul>
