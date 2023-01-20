@@ -60,6 +60,12 @@ const skills = [
 
 const contact = {
   email: "mohamedhishamhaja@gmail.com",
+  mobile: "+91-7708640182",
+  address: "Bangalore, Karnataka",
+  social: {
+    linkedin: "https://www.linkedin.com/in/mohamed-hisham-aa30838a/",
+    github: "https://github.com/H-Mohamed-Hisham",
+  },
 };
 
 const certifications = [

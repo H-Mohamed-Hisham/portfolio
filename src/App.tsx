@@ -11,6 +11,7 @@ import Projects from "components/Projects/Projects";
 import Qualifications from "components/Qualifications/Qualifications";
 import Footer from "components/Footer/Footer";
 import ProjectDetail from "components/ProjectDetail/ProjectDetail";
+import Contact from "components/Contact/Contact";
 
 // SCSS
 import "./App.scss";
@@ -29,7 +30,7 @@ function App() {
           <Route exact path="/experiences" component={Experience} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/qualifications" component={Qualifications} />
-          <Route exact path="/contact" component={Experience} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/project/:id" component={ProjectDetail} />
         </main>
 

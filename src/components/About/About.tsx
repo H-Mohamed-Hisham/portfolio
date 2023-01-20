@@ -23,7 +23,7 @@ const About = () => {
       {role && <h2 className="role">A {role}.</h2>}
       <p className="desc">{description && description}</p>
 
-      <div className="contact center">
+      <div className="about-contact center">
         {resume && (
           <a href={resume} rel="noreferrer" target="_blank">
             <button type="button" className="btn btn-outline">
