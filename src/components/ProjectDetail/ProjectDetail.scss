@@ -58,6 +58,14 @@
   }
 }
 
+.project-not-found {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4em 0;
+}
+
 @media (max-width: 600px) {
   .project-detail {
     transition: transform 0.2s linear;

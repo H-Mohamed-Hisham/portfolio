@@ -23,7 +23,9 @@ const Navbar = () => {
         <div className="nav-item ">
           <Link to="/portfolio">
             <div
-              className={pathname === "/" ? "nav-link nav-active" : "nav-link"}
+              className={
+                pathname === "/portfolio" ? "nav-link nav-active" : "nav-link"
+              }
             >
               <MdPersonOutline />
               <span>About Me</span>
