@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="nav-container">
       <nav className="nav-list">
         <div className="nav-item ">
-          <Link to="/">
+          <Link to="/portfolio">
             <div
               className={pathname === "/" ? "nav-link nav-active" : "nav-link"}
             >
