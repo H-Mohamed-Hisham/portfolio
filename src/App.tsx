@@ -26,7 +26,7 @@ function App() {
         <Navbar />
 
         <main>
-          <Route exact path="/" component={About} />
+          <Route exact path="/portfolio" component={About} />
           <Route exact path="/experiences" component={Experience} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/qualifications" component={Qualifications} />
