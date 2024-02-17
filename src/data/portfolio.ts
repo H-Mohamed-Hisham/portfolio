@@ -52,8 +52,7 @@ const skills = [
   "Git",
   "HTML5",
   "CSS",
-  "Hasura",
-  "Heroku",
+  "GraphQL",
   "MySQL",
   "PHP",
 ];

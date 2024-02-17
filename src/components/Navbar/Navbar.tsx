@@ -21,11 +21,9 @@ const Navbar = () => {
     <div className="nav-container">
       <nav className="nav-list">
         <div className="nav-item ">
-          <Link to="/portfolio">
+          <Link to="/">
             <div
-              className={
-                pathname === "/portfolio" ? "nav-link nav-active" : "nav-link"
-              }
+              className={pathname === "/" ? "nav-link nav-active" : "nav-link"}
             >
               <MdPersonOutline />
               <span>About Me</span>
@@ -55,7 +53,10 @@ const Navbar = () => {
             <Link to="/projects">
               <div
                 className={
-                  pathname === "/projects" ? "nav-link nav-active" : "nav-link"
+                  pathname === "/projects" ||
+                  pathname.split("/")[1] === "project"
+                    ? "nav-link nav-active"
+                    : "nav-link"
                 }
               >
                 <MdLaptop />
