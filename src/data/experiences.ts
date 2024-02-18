@@ -4,12 +4,8 @@ const experiences = [
     organisation: "Ampcome Technologies",
     designation: [
       {
-        role: "Tech Lead",
-        period: "August 2022 - Present",
-      },
-      {
         role: "React Developer",
-        period: "October 2021 - August 2022",
+        period: "October 2021 - Present",
       },
     ],
     location: "Bangalore, Karnataka",

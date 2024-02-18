@@ -15,7 +15,7 @@ const projects = [
       "Express JS",
       "Stripe",
       "Bootstrap",
-      "SCSS",
+      "SASS",
       "Render",
     ],
     screenshots: [

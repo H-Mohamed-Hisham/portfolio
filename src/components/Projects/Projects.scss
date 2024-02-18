@@ -18,6 +18,11 @@
       border-radius: 10px;
       cursor: pointer;
 
+      .active {
+        background-color: var(--clr-primary);
+        color: var(--clr-bg);
+      }
+
       .btn-outline {
         text-transform: capitalize !important;
       }

@@ -24,7 +24,7 @@ const Projects = () => {
     },
     {
       key: "web",
-      value: "Web App",
+      value: "Other Web App",
     },
   ];
 
@@ -64,13 +64,18 @@ const Projects = () => {
               {list.map((item, index) => (
                 <li
                   key={index}
-                  className={filterOption === item.key ? "item active" : "item"}
+                  className="item"
                   onClick={() => {
                     setFilterOption(item.key);
                     changeCategory(item.key);
                   }}
                 >
-                  <button type="button" className="btn btn-outline">
+                  <button
+                    type="button"
+                    className={`btn btn-outline ${
+                      filterOption === item.key ? "active" : ""
+                    }`}
+                  >
                     {item.value}
                   </button>
                 </li>

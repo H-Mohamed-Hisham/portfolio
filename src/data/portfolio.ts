@@ -33,28 +33,8 @@ const educations = [
     institute: "GGSM School",
     location: "Mayiladuthurai, Tamil Nadu",
     year: "2013",
-    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674060228/Portfolio/Logo/no-image_vqs8zn.png",
+    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1708266469/Portfolio/Logo/school_ewxblc.jpg",
   },
-];
-
-const skills = [
-  "React",
-  "TypeScript",
-  "JavaScript",
-  "Refine",
-  "MERN",
-  "Express",
-  "Redux",
-  "CSS",
-  "Bootstrap",
-  "Ant Design",
-  "MongoDB",
-  "Git",
-  "HTML5",
-  "CSS",
-  "GraphQL",
-  "MySQL",
-  "PHP",
 ];
 
 const contact = {
@@ -94,4 +74,4 @@ const certifications = [
   },
 ];
 
-export { header, about, skills, contact, educations, certifications };
+export { header, about, contact, educations, certifications };
