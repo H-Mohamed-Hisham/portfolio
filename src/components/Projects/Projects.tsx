@@ -10,7 +10,7 @@ import { projects } from "data/projects";
 import "./Projects.scss";
 
 const Projects = () => {
-  const [filterOption, setFilterOption] = useState<string>("react");
+  const [filterOption, setFilterOption] = useState<string>("all");
   const [filteredProjects, setFilteredProjects] = useState<any>([]);
 
   const list = [
@@ -21,6 +21,10 @@ const Projects = () => {
     {
       key: "react",
       value: "React",
+    },
+    {
+      key: "nextjs",
+      value: "Next JS",
     },
     {
       key: "web",
@@ -34,13 +38,16 @@ const Projects = () => {
         setFilteredProjects(projects);
         break;
       case "web":
-        setFilteredProjects(
-          projects.filter((e) => e.projectDomain !== "React")
-        );
+        setFilteredProjects(projects.filter((e) => e.projectDomain === "PHP"));
         break;
       case "react":
         setFilteredProjects(
           projects.filter((e) => e.projectDomain === "React")
+        );
+        break;
+      case "nextjs":
+        setFilteredProjects(
+          projects.filter((e) => e.projectDomain === "Next JS")
         );
         break;
 

@@ -1,5 +1,5 @@
 const header = {
-  homepage: "https://www.linkedin.com/in/mohamed-hisham-aa30838a/",
+  homepage: "/portfolio",
   title: "< H />",
 };
 
@@ -9,11 +9,11 @@ const about = {
   name: "MOHAMED HISHAM",
   role: "Full stack developer",
   description:
-    "Web developer with 3+ years of experience who is comfortable working with React, TypeScript, JavaScript, Redux, & responsive web design to deliver exceptional customer experience.",
+    "Experienced B.Tech IT graduate from SRM University with 4.5 years in Web app development. Proficient in full stack, committed to delivering top-notch solutions and staying updated with industry trends.",
   resume:
-    "https://res.cloudinary.com/hm-hisham/image/upload/v1674115231/Portfolio/Resume/Mohamed%20Hisham%20-%20Full%20Stack%20Developer.pdf",
+    "https://res.cloudinary.com/hm-hisham/image/upload/v1715981893/Portfolio/Resume/Mohamed_Hisham_-_React_Developer_me5mtr.pdf",
   social: {
-    linkedin: "https://www.linkedin.com/in/mohamed-hisham-aa30838a/",
+    linkedin: "https://www.linkedin.com/in/hisham-hm/",
     github: "https://github.com/H-Mohamed-Hisham",
   },
 };
@@ -42,7 +42,7 @@ const contact = {
   mobile: "+91-7708640182",
   address: "Bangalore, Karnataka",
   social: {
-    linkedin: "https://www.linkedin.com/in/mohamed-hisham-aa30838a/",
+    linkedin: "https://www.linkedin.com/in/hisham-hm/",
     github: "https://github.com/H-Mohamed-Hisham",
   },
 };
@@ -50,28 +50,36 @@ const contact = {
 const certifications = [
   {
     id: 1,
+    degree: "Next.js From Scratch 2024",
+    institute: "Udemy",
+    location: "Online",
+    year: "2024",
+    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674061159/Portfolio/Logo/udemy_qpjmke.png",
+  },
+  {
+    id: 2,
     degree: "MERN eCommerce From Scratch",
     institute: "Udemy",
     location: "Online",
     year: "2020",
     logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674061159/Portfolio/Logo/udemy_qpjmke.png",
   },
-  {
-    id: 2,
-    degree: ".Net Technology",
-    institute: "Accord Info Matrix",
-    location: "Chennai, Tamil Nadu",
-    year: "2017",
-    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674061741/Portfolio/Logo/accord_gbxa0m.jpg",
-  },
-  {
-    id: 3,
-    degree: "Workshop ( Windows Application Development )",
-    institute: "SRM University",
-    location: "Chennai, Tamil Nadu",
-    year: "2015",
-    logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674060285/Portfolio/Logo/srm-university_bulrn1.png",
-  },
+  // {
+  //   id: 3,
+  //   degree: ".Net Technology",
+  //   institute: "Accord Info Matrix",
+  //   location: "Chennai, Tamil Nadu",
+  //   year: "2017",
+  //   logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674061741/Portfolio/Logo/accord_gbxa0m.jpg",
+  // },
+  // {
+  //   id: 4,
+  //   degree: "Workshop ( Windows Application Development )",
+  //   institute: "SRM University",
+  //   location: "Chennai, Tamil Nadu",
+  //   year: "2015",
+  //   logo: "https://res.cloudinary.com/hm-hisham/image/upload/v1674060285/Portfolio/Logo/srm-university_bulrn1.png",
+  // },
 ];
 
 export { header, about, contact, educations, certifications };

@@ -1,6 +1,32 @@
 const projects = [
   {
     id: "1",
+    name: "H Property",
+    description: `Real Estate Platform that allows users to view properties for buying or renting. Messaging functionality lets users contact property owners directly. Authentication is securely managed through Google OAuth. Admins can add, edit, or delete property listings and monitor user interactions and property views via a dashboard. Users can save favorite listings and update their profile details. The application is deployed on Vercel.`,
+    projectDomain: "Next JS",
+    sourceCode: "https://github.com/H-Mohamed-Hisham/h-property",
+    livePreview: "https://h-property.vercel.app/",
+    stack: [
+      "Next JS",
+      "React",
+      "Google OAuth",
+      "JavaScript",
+      "JavaScript",
+      "MongoDB",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    screenshots: [
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1715981170/Portfolio/H-Property/Home_nrw8kl.jpg",
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1715981170/Portfolio/H-Property/Home2_e2kezl.jpg",
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1715981171/Portfolio/H-Property/Property_t2rbsr.jpg",
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1715981171/Portfolio/H-Property/Propert2_runfr8.jpg",
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1715981170/Portfolio/H-Property/Profile_uvpm28.jpg",
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1715981171/Portfolio/H-Property/Saved_Property_tfbf3l.jpg",
+    ],
+  },
+  {
+    id: "2",
     name: "H Shop",
     description: `Online shopping application which allows consumers to directly buy goods. Payments are integrated with one of the popular payment gateway STRIPE. Admins can add, edit or delete the product & monitor the orders from customers & monitor overall stats of sales in dashboard charts. Customers can monitor their order status & edit their profile details. App is deployed in render.com`,
     projectDomain: "React",
@@ -9,7 +35,7 @@ const projects = [
     stack: [
       "React",
       "Redux",
-      "typeScript",
+      "TypeScript",
       "JavaScript",
       "MongoDB",
       "Express JS",
@@ -35,7 +61,7 @@ const projects = [
     ],
   },
   {
-    id: "2",
+    id: "3",
     name: "SONY",
     description: "Metrics Monitoring Application",
     projectDomain: "React",
@@ -50,7 +76,7 @@ const projects = [
     ],
   },
   {
-    id: "3",
+    id: "4",
     name: "Real Estate",
     description:
       "US Based Real Estate Agency Specializes In The Sales And Rentals Of Vacation And Investment Homes.",
@@ -64,7 +90,7 @@ const projects = [
     ],
   },
   {
-    id: "4",
+    id: "5",
     name: "Real Estate",
     description:
       "US Based Real Estate Agency Specializes In The Sales And Rentals Of Vacation And Investment Homes.",
@@ -78,7 +104,7 @@ const projects = [
     ],
   },
   {
-    id: "5",
+    id: "6",
     name: "Tennis Club",
     description: `US Based Private Tennis Club. The club features tennis leagues, many social activities only open to members.  It allows you to add tournament details, participant details and also it allows us to map tournament bracket. Players can register membership through online & payment can be done through Credit Card or PayPal.`,
     projectDomain: "PHP",
