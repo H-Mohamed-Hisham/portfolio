@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 // Components
 import ProjectContainer from "components/ProjectContainer/ProjectContainer";
@@ -10,54 +10,36 @@ import { projects } from "data/projects";
 import "./Projects.scss";
 
 const Projects = () => {
-  const [filterOption, setFilterOption] = useState<string>("all");
-  const [filteredProjects, setFilteredProjects] = useState<any>([]);
+  // State
+  const [option, setOption] = useState<string>("all");
 
-  const list = [
+  const projectDomainList = [
     {
-      key: "all",
-      value: "All",
+      label: "All",
+      value: "all",
     },
     {
-      key: "react",
-      value: "React",
+      label: "React",
+      value: "react",
     },
     {
-      key: "nextjs",
-      value: "Next JS",
+      label: "Next JS",
+      value: "nextjs",
     },
     {
-      key: "web",
-      value: "Other Web App",
+      label: "Others",
+      value: "php",
     },
   ];
 
-  function changeCategory(selected: any) {
-    switch (selected) {
-      case "all":
-        setFilteredProjects(projects);
-        break;
-      case "web":
-        setFilteredProjects(projects.filter((e) => e.projectDomain === "PHP"));
-        break;
-      case "react":
-        setFilteredProjects(
-          projects.filter((e) => e.projectDomain === "React")
-        );
-        break;
-      case "nextjs":
-        setFilteredProjects(
-          projects.filter((e) => e.projectDomain === "Next JS")
-        );
-        break;
-
-      default:
-        setFilteredProjects(projects);
-    }
-  }
+  const filteredProjects = useMemo(() => {
+    return option === "all"
+      ? projects
+      : projects.filter((e) => e.projectDomainKey === option);
+  }, [option]);
 
   useEffect(() => {
-    setFilteredProjects(projects);
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -68,22 +50,21 @@ const Projects = () => {
 
           <div className="filter-container">
             <ul className="list">
-              {list.map((item, index) => (
+              {projectDomainList.map((item, index) => (
                 <li
                   key={index}
                   className="item"
                   onClick={() => {
-                    setFilterOption(item.key);
-                    changeCategory(item.key);
+                    setOption(item.value);
                   }}
                 >
                   <button
                     type="button"
                     className={`btn btn-outline ${
-                      filterOption === item.key ? "active" : ""
+                      option === item.value ? "active" : ""
                     }`}
                   >
-                    {item.value}
+                    {item.label}
                   </button>
                 </li>
               ))}
@@ -91,7 +72,7 @@ const Projects = () => {
           </div>
 
           <div className="projects-grid">
-            {filteredProjects.map((project: any, index: number) => (
+            {filteredProjects?.map((project: any, index: number) => (
               <ProjectContainer key={index} project={project} />
             ))}
           </div>

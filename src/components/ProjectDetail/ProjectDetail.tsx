@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slider from "react-slick";
 import { AiFillGithub } from "react-icons/ai";
 import { MdLaunch } from "react-icons/md";
@@ -33,11 +33,15 @@ const ProjectDetail: React.FC<props> = ({ match }) => {
     autoplaySpeed: 2000,
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="section">
       {project === undefined ? (
         <div className="project-not-found">
-          <h5 className="title">No Data</h5>
+          <h5 className="title">No Data Found</h5>
           <Link to="/projects" className="btn btn-outline">
             Go Back to Projects
           </Link>
@@ -61,6 +65,11 @@ const ProjectDetail: React.FC<props> = ({ match }) => {
 
             <div className="details-container">
               <p className="description">{project?.description}</p>
+
+              <p className="associated">
+                Associated With : {project?.associated}
+              </p>
+
               <ul className="stack-list">
                 {project?.stack.map((skill: any, index: number) => (
                   <li key={index} className="stack-list-item btn btn-plain">

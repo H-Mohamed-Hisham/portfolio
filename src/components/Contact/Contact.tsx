@@ -1,9 +1,15 @@
+import { useEffect } from "react";
+
+// Data
 import { contact } from "data/portfolio";
 
 // SCSS
 import "./Contact.scss";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="section">
       <h2 className="title">Contact</h2>

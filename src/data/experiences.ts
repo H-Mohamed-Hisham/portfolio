@@ -1,7 +1,7 @@
 const experiences = [
   {
     id: 1,
-    organisation: "Ampcome Technologies",
+    organisation: "Ampcome",
     designation: [
       {
         role: "React Developer",
@@ -9,7 +9,7 @@ const experiences = [
       },
     ],
     location: "Bangalore, Karnataka",
-    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1673967181/Portfolio/Company/Ampcome_abocpy.png",
+    icon: "https://res.cloudinary.com/hm-hisham/image/upload/v1716131792/Portfolio/Company/ampcome_owbd63.png",
   },
   {
     id: 2,

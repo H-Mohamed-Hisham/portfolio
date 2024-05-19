@@ -4,7 +4,7 @@ import { MdWbSunny } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 // Context
-import { ThemeContext } from "../../contexts/theme";
+import { ThemeContext } from "contexts/theme";
 
 // CSS
 import "./Header.scss";

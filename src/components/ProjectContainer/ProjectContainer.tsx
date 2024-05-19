@@ -24,6 +24,7 @@ const ProjectContainer: React.FC<props> = ({ project }) => {
         <h3>{project.name}</h3>
 
         <p className="description">{project.description}</p>
+
         {project.stack && (
           <ul className="stack">
             {project.stack.map((item: any, index: number) => (

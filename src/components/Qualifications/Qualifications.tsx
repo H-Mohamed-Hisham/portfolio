@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // Data
 import { educations, certifications } from "data/portfolio";
 
@@ -5,6 +7,10 @@ import { educations, certifications } from "data/portfolio";
 import "./Qualifications.scss";
 
 const Qualifications = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="section">
       <h2 className="title">Educations</h2>

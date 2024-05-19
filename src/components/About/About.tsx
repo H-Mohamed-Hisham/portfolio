@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
@@ -10,15 +11,14 @@ import "./About.scss";
 const About = () => {
   const { photo, name, role, description, resume, social } = about;
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="about center">
       {photo && <img alt="Hisham" src={photo} />}
-      {name && (
-        // <h1>
-        //   <span className="name">{name}.</span>
-        // </h1>
-        <h1 className="name">{name}.</h1>
-      )}
+      {name && <h1 className="name">{name}.</h1>}
 
       {role && <h2 className="role">A {role}.</h2>}
       <p className="desc">{description && description}</p>

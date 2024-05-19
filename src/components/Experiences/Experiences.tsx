@@ -1,13 +1,17 @@
+import { useEffect } from "react";
+
 // Data
 import { experiences } from "data/experiences";
 
 // CSS
-import "./Experience.scss";
+import "./Experiences.scss";
 
-const Experience = () => {
-  if (!experiences.length) return null;
+const Experiences = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  return (
+  return !experiences.length ? null : (
     <section className="section">
       <h2 className="title">Experiences</h2>
 
@@ -37,4 +41,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Experiences;
