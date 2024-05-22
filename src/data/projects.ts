@@ -128,6 +128,81 @@ const projects = [
       "https://res.cloudinary.com/hm-hisham/image/upload/v1666118473/Portfolio/PHP/Championship_ybgkqi.jpg",
     ],
   },
+  {
+    id: "7",
+    name: "Rock, Paper, Scissors!",
+    description: `The Rock, Paper, Scissors Game allows users to play the classic game against the computer, providing instant results and interactive feedback. Built with HTML, CSS, and JavaScript, it offers a fun and engaging user experience.`,
+    associated: "Freecode Camp Course",
+    projectDomain: "JavaScript",
+    projectDomainKey: "javascript",
+    sourceCode: null,
+    livePreview:
+      "https://h-mohamed-hisham.github.io/mini-projects/rock-paper-scissors/",
+    stack: ["JavaScript", "HTML", "CSS"],
+    screenshots: [
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1716406166/Portfolio/Mini%20Projects/RPS_wizbif.jpg",
+    ],
+  },
+  {
+    id: "8",
+    name: "H-Music Player",
+    description: `The Music Player App lets users play, pause, and manage songs with a sleek interface, utilizing the Web Audio API for seamless audio control. Built with HTML, CSS, and JavaScript.`,
+    associated: "Freecode Camp Course",
+    projectDomain: "JavaScript",
+    projectDomainKey: "javascript",
+    sourceCode: null,
+    livePreview:
+      "https://h-mohamed-hisham.github.io/mini-projects/music-player/",
+    stack: ["JavaScript", "HTML", "CSS"],
+    screenshots: [
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1716406166/Portfolio/Mini%20Projects/Music_lepgmq.jpg",
+    ],
+  },
+  {
+    id: "9",
+    name: "Calorie Counter",
+    description: `The Calorie Counter App helps users track their daily calorie intake by logging food items and comparing against a set calorie budget, providing instant feedback on surplus or deficit. Built with HTML, CSS, and JavaScript.`,
+    associated: "Freecode Camp Course",
+    projectDomain: "JavaScript",
+    projectDomainKey: "javascript",
+    sourceCode: null,
+    livePreview:
+      "https://h-mohamed-hisham.github.io/mini-projects/calorie-counter/index.html",
+    stack: ["JavaScript", "HTML", "CSS"],
+    screenshots: [
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1716406167/Portfolio/Mini%20Projects/Calorie_uuc8v0.jpg",
+    ],
+  },
+  {
+    id: "10",
+    name: "Palindrome Checker",
+    description: `The Palindrome Checker App allows users to quickly verify if a given word or phrase is a palindrome, providing instant results. Built with HTML, CSS, and JavaScript.`,
+    associated: "Freecode Camp Course",
+    projectDomain: "JavaScript",
+    projectDomainKey: "javascript",
+    sourceCode: null,
+    livePreview:
+      "https://h-mohamed-hisham.github.io/mini-projects/palindrome-checker/",
+    stack: ["JavaScript", "HTML", "CSS"],
+    screenshots: [
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1716406166/Portfolio/Mini%20Projects/Palindrome_wrtuhy.jpg",
+    ],
+  },
+  {
+    id: "11",
+    name: "Dragon Repeller Game ( RPG )",
+    description: `The Dragon Repeller Game is an exciting role-playing adventure where users must defeat dragons and can buy health, gold, and weapons. Built with HTML, CSS, and JavaScript.`,
+    associated: "Freecode Camp Course",
+    projectDomain: "JavaScript",
+    projectDomainKey: "javascript",
+    sourceCode: null,
+    livePreview:
+      "https://h-mohamed-hisham.github.io/mini-projects/dragon-repeller-game/",
+    stack: ["JavaScript", "HTML", "CSS"],
+    screenshots: [
+      "https://res.cloudinary.com/hm-hisham/image/upload/v1716406167/Portfolio/Mini%20Projects/Dragon_mhp6ru.jpg",
+    ],
+  },
 ];
 
 export { projects };

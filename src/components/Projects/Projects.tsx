@@ -27,7 +27,11 @@ const Projects = () => {
       value: "nextjs",
     },
     {
-      label: "Others",
+      label: "Mini Projects",
+      value: "javascript",
+    },
+    {
+      label: "PHP",
       value: "php",
     },
   ];

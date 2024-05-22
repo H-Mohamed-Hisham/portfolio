@@ -21,7 +21,7 @@ const ProjectContainer: React.FC<props> = ({ project }) => {
           history.push(`project/${project.id}`);
         }}
       >
-        <h3>{project.name}</h3>
+        <h3 className="project-title">{project.name}</h3>
 
         <p className="description">{project.description}</p>
 
@@ -37,6 +37,8 @@ const ProjectContainer: React.FC<props> = ({ project }) => {
 
         {project.sourceCode && (
           <a
+            target="_blank"
+            rel="noreferrer"
             href={project.sourceCode}
             aria-label="source code"
             className="link link-icon"
@@ -47,6 +49,8 @@ const ProjectContainer: React.FC<props> = ({ project }) => {
 
         {project.livePreview && (
           <a
+            target="_blank"
+            rel="noreferrer"
             href={project.livePreview}
             aria-label="live preview"
             className="link link-icon"
