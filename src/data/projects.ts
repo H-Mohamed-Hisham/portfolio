@@ -160,36 +160,6 @@ const projects = [
   },
   {
     id: "9",
-    name: "Calorie Counter",
-    description: `The Calorie Counter App helps users track their daily calorie intake by logging food items and comparing against a set calorie budget, providing instant feedback on surplus or deficit. Built with HTML, CSS, and JavaScript.`,
-    associated: "Freecode Camp Course",
-    projectDomain: "JavaScript",
-    projectDomainKey: "javascript",
-    sourceCode: null,
-    livePreview:
-      "https://h-mohamed-hisham.github.io/mini-projects/calorie-counter/index.html",
-    stack: ["JavaScript", "HTML", "CSS"],
-    screenshots: [
-      "https://res.cloudinary.com/hm-hisham/image/upload/v1716406167/Portfolio/Mini%20Projects/Calorie_uuc8v0.jpg",
-    ],
-  },
-  {
-    id: "10",
-    name: "Palindrome Checker",
-    description: `The Palindrome Checker App allows users to quickly verify if a given word or phrase is a palindrome, providing instant results. Built with HTML, CSS, and JavaScript.`,
-    associated: "Freecode Camp Course",
-    projectDomain: "JavaScript",
-    projectDomainKey: "javascript",
-    sourceCode: null,
-    livePreview:
-      "https://h-mohamed-hisham.github.io/mini-projects/palindrome-checker/",
-    stack: ["JavaScript", "HTML", "CSS"],
-    screenshots: [
-      "https://res.cloudinary.com/hm-hisham/image/upload/v1716406166/Portfolio/Mini%20Projects/Palindrome_wrtuhy.jpg",
-    ],
-  },
-  {
-    id: "11",
     name: "Dragon Repeller Game ( RPG )",
     description: `The Dragon Repeller Game is an exciting role-playing adventure where users must defeat dragons and can buy health, gold, and weapons. Built with HTML, CSS, and JavaScript.`,
     associated: "Freecode Camp Course",
@@ -203,6 +173,36 @@ const projects = [
       "https://res.cloudinary.com/hm-hisham/image/upload/v1716406167/Portfolio/Mini%20Projects/Dragon_mhp6ru.jpg",
     ],
   },
+  // {
+  //   id: "10",
+  //   name: "Palindrome Checker",
+  //   description: `The Palindrome Checker App allows users to quickly verify if a given word or phrase is a palindrome, providing instant results. Built with HTML, CSS, and JavaScript.`,
+  //   associated: "Freecode Camp Course",
+  //   projectDomain: "JavaScript",
+  //   projectDomainKey: "javascript",
+  //   sourceCode: null,
+  //   livePreview:
+  //     "https://h-mohamed-hisham.github.io/mini-projects/palindrome-checker/",
+  //   stack: ["JavaScript", "HTML", "CSS"],
+  //   screenshots: [
+  //     "https://res.cloudinary.com/hm-hisham/image/upload/v1716406166/Portfolio/Mini%20Projects/Palindrome_wrtuhy.jpg",
+  //   ],
+  // },
+  // {
+  //   id: "11",
+  //   name: "Calorie Counter",
+  //   description: `The Calorie Counter App helps users track their daily calorie intake by logging food items and comparing against a set calorie budget, providing instant feedback on surplus or deficit. Built with HTML, CSS, and JavaScript.`,
+  //   associated: "Freecode Camp Course",
+  //   projectDomain: "JavaScript",
+  //   projectDomainKey: "javascript",
+  //   sourceCode: null,
+  //   livePreview:
+  //     "https://h-mohamed-hisham.github.io/mini-projects/calorie-counter/index.html",
+  //   stack: ["JavaScript", "HTML", "CSS"],
+  //   screenshots: [
+  //     "https://res.cloudinary.com/hm-hisham/image/upload/v1716406167/Portfolio/Mini%20Projects/Calorie_uuc8v0.jpg",
+  //   ],
+  // },
 ];
 
 export { projects };
