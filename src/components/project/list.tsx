@@ -66,7 +66,7 @@ export function ProjectList() {
               onClick={() => handleProjectDetailRoute(item.id)}
             >
               <CardTitle className="text-primary">{item.name}</CardTitle>
-              <CardDescription className="flex items-center gap-x-4">
+              <CardDescription className="flex items-center gap-x-2">
                 <Link className="w-4 h-4" />
                 <span>{item.associated}</span>
               </CardDescription>

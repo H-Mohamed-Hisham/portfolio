@@ -39,7 +39,7 @@ export function Menu() {
   const base_pathname = pathname.split("/")[1];
 
   return (
-    <div className="w-full flex justify-center items-center fixed bottom-0 my-0 z-10 h-[88px]">
+    <div className="w-full flex justify-center items-center fixed bottom-0 my-0 z-10 h-[88px] bg-background">
       <div className="grid grid-cols-4 gap-2 border rounded-sm p-1 mb-1 mx-1 md:mx-0">
         {menu.map((item, index) => (
           <MenuItem

@@ -1,4 +1,7 @@
+// Providers
 import { ThemeProvider } from "@/providers/theme/theme-provider";
+
+// App Routes
 import { AppRoutes } from "@/routes/index";
 
 function App() {

@@ -43,7 +43,7 @@ const ROUTES = [
 
 export function AppRoutes() {
   return (
-    <Router basename={"/portfolio"}>
+    <Router basename={"/portfolio/"}>
       <Routes>
         {/* 404 Page */}
         {/* <Route path="*" element={<PageNotFound />} /> */}
