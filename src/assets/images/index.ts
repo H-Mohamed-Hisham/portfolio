@@ -49,6 +49,12 @@ import purdy_property from "@/assets/images/project/purdy/property.png";
 import rps from "@/assets/images/project/mini-projects/rps.jpg";
 import music_player from "@/assets/images/project/mini-projects/music-player.jpg";
 
+import h_stock_portfolio_dashboard from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-dashboard.png";
+import h_stock_portfolio_transactions from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-transactions.png";
+import h_stock_portfolio_create_transaction from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-create-transaction.png";
+
+import spechtral_home from "@/assets/images/project/spechtral/home.png";
+
 export {
   hisham,
   school,
@@ -88,4 +94,8 @@ export {
   purdy_property,
   rps,
   music_player,
+  h_stock_portfolio_dashboard,
+  h_stock_portfolio_transactions,
+  h_stock_portfolio_create_transaction,
+  spechtral_home,
 };

@@ -31,13 +31,59 @@ import {
   purdy_property,
   rps,
   music_player,
+  h_stock_portfolio_dashboard,
+  h_stock_portfolio_transactions,
+  h_stock_portfolio_create_transaction,
+  spechtral_home,
 } from "@/assets/images";
 
 const project = [
   {
     id: "1",
+    name: "Stock Portfolio",
+    description: `Stock portfolio is a hobby project that allows users to manually enter their stock transaction details, such as buying or selling shares. It provides a comprehensive overview of the user's invested amount, returns, and profit/loss calculations. Users can also view the total performance of all stocks they have bought or sold. The project includes visual charts for better insights and a clear representation of their portfolio's financial data, making it easier to track and analyze investments.`,
+    associated: "Hobby Project",
+    projectDomain: "React",
+    projectDomainKey: "react",
+    sourceCode: "https://github.com/H-Mohamed-Hisham/stock-portfolio",
+    livePreview: "https://h-stock-portfolio.onrender.com/",
+    stack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadCN",
+      "Nest JS",
+      "PostgreSQL",
+    ],
+    screenshots: [
+      h_stock_portfolio_dashboard,
+      h_stock_portfolio_transactions,
+      h_stock_portfolio_create_transaction,
+    ],
+  },
+  {
+    id: "2",
+    name: "Spechtral",
+    description: `Spechtral is an AI-driven platform designed to simplify tax research by providing users with dynamic answers to tax-related queries. Users can search for specific tax topics, such as the taxability of products or services across various states, and receive instant, relevant information. The platform enhances the research experience by offering an intuitive interface, allowing professionals to quickly access and understand complex tax regulations efficiently.`,
+    associated: "Ampcome",
+    projectDomain: "Next JS",
+    projectDomainKey: "nextjs",
+    sourceCode: null,
+    livePreview: "https://taxai-dev.netlify.app/",
+    stack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadCN",
+      "Nest JS",
+      "PostgreSQL",
+    ],
+    screenshots: [spechtral_home],
+  },
+  {
+    id: "3",
     name: "H Property",
-    description: `Real Estate Platform that allows users to view properties for buying or renting. Messaging functionality lets users contact property owners directly. Authentication is securely managed through Google OAuth. Admins can add, edit, or delete property listings and monitor user interactions and property views via a dashboard. Users can save favorite listings and update their profile details. The application is deployed on Vercel.`,
+    description: `This hobby project is a real estate platform that allows users to browse properties available for buying or renting. It features messaging functionality for users to directly contact property owners and securely handles authentication using Google OAuth. Admins can manage property listings by adding, editing, or deleting them and monitor user interactions and property views via a dashboard. Additionally, users can save their favorite listings and update their profile details.`,
     associated: "Udemy Certification",
     projectDomain: "Next JS",
     projectDomainKey: "nextjs",
@@ -63,7 +109,7 @@ const project = [
     ],
   },
   {
-    id: "2",
+    id: "4",
     name: "H Shop",
     description: `Online shopping application which allows consumers to directly buy goods. Payments are integrated with one of the popular payment gateway STRIPE. Admins can add, edit or delete the product & monitor the orders from customers & monitor overall stats of sales in dashboard charts. Customers can monitor their order status & edit their profile details. App is deployed in render.com`,
     associated: "Udemy Certification",
@@ -100,8 +146,8 @@ const project = [
     ],
   },
   {
-    id: "3",
-    name: "SONY",
+    id: "5",
+    name: "Sony Infra-Hub",
     description:
       "Users authenticate through Okta for secure login. They can activate services such as GitLab, AWS, or Azure by filling out relevant forms. The application also provides users with detailed insights into their service usage, including available storage space and CPU usage.",
     associated: "Ampcome",
@@ -113,10 +159,10 @@ const project = [
     screenshots: [sony_desktop, sony_desktop_2, sony_desktop_3, sony_mobile],
   },
   {
-    id: "4",
+    id: "6",
     name: "Freda Real Estate",
     description:
-      "US Based Real Estate Agency Specializes In The Sales And Rentals Of Vacation And Investment Homes.",
+      "Freda Real Estate helps users find vacation rentals and properties for sale in Sea Isle City, NJ. The platform offers tools to browse summer home rentals, investment properties, and last-minute deals. Users can directly contact property owners, while admins manage listings and track activity via a dashboard. It ensures a user-friendly experience for both renters and buyers.",
     associated: "Mclansys Solutions",
     projectDomain: "PHP",
     projectDomainKey: "php",
@@ -131,10 +177,10 @@ const project = [
     ],
   },
   {
-    id: "5",
+    id: "7",
     name: "Purdy Real Estate",
     description:
-      "US Based Real Estate Agency Specializes In The Sales And Rentals Of Vacation And Investment Homes.",
+      "Purdy Real Estate specializes in vacation rentals and properties for sale in Avalon and Stone Harbor, NJ. It offers tools for users to search vacation homes, explore properties for sale, and find last-minute rental deals. The platform provides personalized support for those looking to buy, sell, or rent, catering to both vacationers and investors on Seven Mile Island.",
     associated: "Mclansys Solutions",
     projectDomain: "PHP",
     projectDomainKey: "php",
@@ -144,7 +190,7 @@ const project = [
     screenshots: [purdy_home, purdy_property],
   },
   {
-    id: "6",
+    id: "8",
     name: "Rock, Paper, Scissors!",
     description: `The Rock, Paper, Scissors Game allows users to play the classic game against the computer, providing instant results and interactive feedback. Built with HTML, CSS, and JavaScript, it offers a fun and engaging user experience.`,
     associated: "Hobby Project",
@@ -157,7 +203,7 @@ const project = [
     screenshots: [rps],
   },
   {
-    id: "7",
+    id: "9",
     name: "H-Music Player",
     description: `The Music Player App lets users play, pause, and manage songs with a sleek interface, utilizing the Web Audio API for seamless audio control. Built with HTML, CSS, and JavaScript.`,
     associated: "Hobby Project",
