@@ -20,14 +20,14 @@ export function Home() {
         </p>
 
         <p className="text-2xl font-bold text-muted-foreground text-center">
-          A {role}
+          {role}
         </p>
 
         <p className="text-lg text-muted-foreground text-center">
           {description && description}
         </p>
 
-        <div className="flex items-center justify-center gap-x-4">
+        <div className="flex items-center justify-center gap-x-4 mt-3">
           <Button asChild variant="secondary" className="font-semibold">
             <a
               href={resume}

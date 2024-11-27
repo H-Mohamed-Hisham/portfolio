@@ -15,10 +15,6 @@ const project_category_list = [
     label: "Mini Projects",
     value: "javascript",
   },
-  {
-    label: "PHP",
-    value: "php",
-  },
 ];
 
 export { project_category_list };
