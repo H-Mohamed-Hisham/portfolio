@@ -39,16 +39,6 @@ export function Experience() {
                 <History className="w-4 h-4" />
                 <span>{item.designation.period}</span>
               </div>
-              <div className="text-sm text-muted-foreground font-semibold">
-                Responsibilities :
-              </div>
-              <ul className="text-sm text-muted-foreground list-disc">
-                {item.responsibilities.map((d, idx) => (
-                  <li key={idx} className="ml-2">
-                    {d}
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         ))}
