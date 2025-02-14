@@ -27,7 +27,7 @@ const experience = [
     icon: clover_design_group,
   },
   {
-    id: 3,
+    id: 2,
     organisation: "Software Cubes",
     designation: [
       {

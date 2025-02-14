@@ -1,3 +1,6 @@
+// Icons
+import { History } from "lucide-react";
+
 // Data
 import { experience } from "@/data/experience";
 
@@ -29,10 +32,20 @@ export function Experience() {
                 {item.organisation}
               </div>
               <p className="text-sm text-muted-foreground">{item.location}</p>
+              <div className="text-sm text-muted-foreground">
+                {item.designation.role}
+              </div>
+              <div className="text-sm text-muted-foreground flex items-center gap-x-2">
+                <History className="w-4 h-4" />
+                <span>{item.designation.period}</span>
+              </div>
+              <div className="text-sm text-muted-foreground font-semibold">
+                Responsibilities :
+              </div>
               <ul className="text-sm text-muted-foreground list-disc">
-                {item.designation.map((d, idx) => (
+                {item.responsibilities.map((d, idx) => (
                   <li key={idx} className="ml-2">
-                    {d.role} - {d.period}
+                    {d}
                   </li>
                 ))}
               </ul>
