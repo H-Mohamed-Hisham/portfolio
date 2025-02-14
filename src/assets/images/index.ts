@@ -8,7 +8,7 @@ import udemy from "@/assets/images/education/udemy.png";
 
 // Company
 import software_cubes from "@/assets/images/company/software-cubes.png";
-import mclansys from "@/assets/images/company/mclansys.png";
+import clover_design_group from "@/assets/images/company/clover-design-group.jpg";
 import ampcome from "@/assets/images/company/ampcome.png";
 
 // Project
@@ -38,17 +38,6 @@ import h_shop_admin_dashboard from "@/assets/images/project/h-shop/admin-dashboa
 import h_shop_admin_product_list from "@/assets/images/project/h-shop/admin-product-list.jpg";
 import h_shop_admin_order_list from "@/assets/images/project/h-shop/admin-order-list.jpg";
 
-import freda_home from "@/assets/images/project/freda/home.png";
-import freda_property_1 from "@/assets/images/project/freda/property-1.png";
-import freda_property_2 from "@/assets/images/project/freda/property-2.png";
-import freda_property_3 from "@/assets/images/project/freda/property-3.png";
-
-import purdy_home from "@/assets/images/project/purdy/home.png";
-import purdy_property from "@/assets/images/project/purdy/property.png";
-
-import rps from "@/assets/images/project/mini-projects/rps.jpg";
-import music_player from "@/assets/images/project/mini-projects/music-player.jpg";
-
 import h_stock_portfolio_dashboard from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-dashboard.png";
 import h_stock_portfolio_transactions from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-transactions.png";
 import h_stock_portfolio_create_transaction from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-create-transaction.png";
@@ -61,7 +50,7 @@ export {
   college,
   udemy,
   software_cubes,
-  mclansys,
+  clover_design_group,
   ampcome,
   sony_desktop,
   sony_desktop_2,
@@ -86,14 +75,6 @@ export {
   h_shop_admin_dashboard,
   h_shop_admin_product_list,
   h_shop_admin_order_list,
-  freda_home,
-  freda_property_1,
-  freda_property_2,
-  freda_property_3,
-  purdy_home,
-  purdy_property,
-  rps,
-  music_player,
   h_stock_portfolio_dashboard,
   h_stock_portfolio_transactions,
   h_stock_portfolio_create_transaction,

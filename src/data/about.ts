@@ -12,15 +12,15 @@ const social = {
 const about = {
   photo: hisham,
   name: "MOHAMED HISHAM",
-  role: "Full stack developer",
+  role: "Front-End Developer",
   resume: resume,
   social: social,
-  description: `Developer with 4.5+ years of experience in building web apps using Next.js and React. Skilled in integrating AI-driven features into UIs and familiar with backend development using NestJS. Holds a B.Tech in IT from SRM University and is eager to expand expertise in full-stack development and problem-solving.`,
+  description: `Front-End Developer with 5+ years of experience in building scalable web applications, specializing in React, Redux, NextJS, TypeScript, JavaScript & TailwindCSS. Worked on projects like a stock market analytics platform and an AI-powered website, focusing on API integration and workflow development. Passionate about Full-Stack development, continuously learning Python & NestJS. Holds a B.Tech in IT from SRM University, Chennai.`,
 };
 
 const contact = {
   email: "mohamedhishamhaja@gmail.com",
-  mobile: "+91-7708640182",
+  mobile: "+917708640182",
   address: "Bangalore, Karnataka",
   social: social,
 };
