@@ -15,7 +15,7 @@ const about = {
   role: "Front-End Developer",
   resume: resume,
   social: social,
-  description: `Front-End Developer with 5+ years of experience in building scalable web applications, specializing in React, Redux, NextJS, TypeScript, JavaScript & TailwindCSS. Worked on projects like a stock market analytics platform and an AI-powered website, focusing on API integration and UI development. Passionate about Full-Stack development, continuously learning Python & NestJS. Holds a B.Tech in IT from SRM University, Chennai.`,
+  description: `Front-End Developer with nearly 4 years of experience, specializing in React, Redux, Next.js, TypeScript, JavaScript, and Tailwind CSS. Worked on an India-based stock market analytics platform and am currently working on an AI-powered crypto analytics web app, focusing on API integrations, AI-generated report streaming, and chatbot UI development. Also contributed to other AI-powered web applications. Passionate about becoming a Full-Stack Developer, currently learning the basics of Python and SQL. Holds a B.Tech in IT from SRM University, Chennai.`,
 };
 
 const contact = {

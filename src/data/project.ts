@@ -46,6 +46,7 @@ const project = [
       "ShadCN",
       "Nest JS",
       "PostgreSQL",
+      "Prisma",
     ],
     screenshots: [
       h_stock_portfolio_dashboard,
@@ -62,14 +63,7 @@ const project = [
     projectDomainKey: "nextjs",
     sourceCode: null,
     livePreview: "https://taxai-dev.netlify.app/",
-    stack: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "ShadCN",
-      "Nest JS",
-      "PostgreSQL",
-    ],
+    stack: ["React", "TypeScript", "Tailwind CSS", "ShadCN", "Redux"],
     screenshots: [spechtral_home],
   },
   {
@@ -139,7 +133,7 @@ const project = [
   },
   {
     id: "5",
-    name: "Sony Infra-Hub",
+    name: "Sony Cloud Analytics",
     description:
       "Users authenticate through Okta for secure login. They can activate services such as GitLab, AWS, or Azure by filling out relevant forms. The application also provides users with detailed insights into their service usage, including available storage space and CPU usage.",
     associated: "Ampcome",

@@ -1,5 +1,9 @@
 // Images
-import { software_cubes, clover_design_group, ampcome } from "@/assets/images";
+import {
+  software_cubes,
+  // clover_design_group,
+  ampcome,
+} from "@/assets/images";
 
 const experience = [
   {
@@ -13,17 +17,17 @@ const experience = [
     location: "Bangalore, Karnataka, India",
     icon: ampcome,
   },
-  {
-    id: 2,
-    organisation: "Clover Design Group",
-    designation: {
-      role: "PHP Developer",
-      period: "December 2019 - August 2021",
-    },
+  // {
+  //   id: 2,
+  //   organisation: "Clover Design Group",
+  //   designation: {
+  //     role: "PHP Developer",
+  //     period: "December 2019 - August 2021",
+  //   },
 
-    location: "Trichy, Tamil Nadu, India",
-    icon: clover_design_group,
-  },
+  //   location: "Trichy, Tamil Nadu, India",
+  //   icon: clover_design_group,
+  // },
   {
     id: 2,
     organisation: "Software Cubes",
