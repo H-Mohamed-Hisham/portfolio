@@ -27,6 +27,8 @@ import {
   h_stock_portfolio_transactions,
   h_stock_portfolio_create_transaction,
   spechtral_home,
+  strike_home,
+  strike_advance_decline,
 } from "@/assets/images";
 
 const project = [
@@ -57,7 +59,7 @@ const project = [
   {
     id: "2",
     name: "Spechtral",
-    description: `Spechtral is an AI-driven platform designed to simplify tax research by providing users with dynamic answers to tax-related queries. Users can search for specific tax topics, such as the taxability of products or services across various states, and receive instant, relevant information. The platform enhances the research experience by offering an intuitive interface, allowing professionals to quickly access and understand complex tax regulations efficiently.`,
+    description: `An AI-powered platform designed to simplify indirect tax research by delivering contextual tax insights through a smart, user-friendly interface.`,
     associated: "Ampcome",
     projectDomain: "Next JS",
     projectDomainKey: "nextjs",
@@ -135,7 +137,7 @@ const project = [
     id: "5",
     name: "Sony Cloud Analytics",
     description:
-      "Users authenticate through Okta for secure login. They can activate services such as GitLab, AWS, or Azure by filling out relevant forms. The application also provides users with detailed insights into their service usage, including available storage space and CPU usage.",
+      "A cloud-based platform enabling users to activate GitLab/GitHub, request AWS/Azure services, manage OKTA roles, and automate workspaces, with integrated training and Cloud Eye features.",
     associated: "Ampcome",
     projectDomain: "React",
     projectDomainKey: "react",
@@ -143,6 +145,19 @@ const project = [
     livePreview: null,
     stack: ["React", "Redux", "JavaScript", "Bootstrap", "SASS"],
     screenshots: [sony_desktop, sony_desktop_2, sony_desktop_3, sony_mobile],
+  },
+  {
+    id: "6",
+    name: "Strike Analytics",
+    description:
+      "A web-based platform for options traders to analyze market trends using strategy builders, screeners, and interactive charting tools.",
+    associated: "Ampcome",
+    projectDomain: "Next JS",
+    projectDomainKey: "nextjs",
+    sourceCode: null,
+    livePreview: "https://web.strike.money/dashboard",
+    stack: ["Next JS", "React", "Redux", "JavaScript", "SASS", "Razor Pay"],
+    screenshots: [strike_home, strike_advance_decline],
   },
 ];
 

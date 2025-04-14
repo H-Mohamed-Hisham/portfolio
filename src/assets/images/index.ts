@@ -44,6 +44,9 @@ import h_stock_portfolio_create_transaction from "@/assets/images/project/h-stoc
 
 import spechtral_home from "@/assets/images/project/spechtral/home.png";
 
+import strike_home from "@/assets/images/project/strike/strike-home.png";
+import strike_advance_decline from "@/assets/images/project/strike/strike-advance-decline.png";
+
 export {
   hisham,
   school,
@@ -79,4 +82,6 @@ export {
   h_stock_portfolio_transactions,
   h_stock_portfolio_create_transaction,
   spechtral_home,
+  strike_home,
+  strike_advance_decline,
 };

@@ -16,6 +16,8 @@ const experience = [
 
     location: "Bangalore, Karnataka, India",
     icon: ampcome,
+    description:
+      "Developing scalable web applications using React.js, Next.js, Redux, TypeScript, and modern UI technologies while adhering to best practices. Proactively handled bug fixes, performance optimization, and responsive design. Integrated secure authentication using Okta and Google Auth, and implemented Stripe and Razorpay payment gateways for smooth transaction processing.",
   },
   // {
   //   id: 2,
@@ -38,6 +40,8 @@ const experience = [
 
     location: "Chennai, Tamil Nadu, India",
     icon: software_cubes,
+    description:
+      "Developed web applications using C#, ASP.NET, HTML, CSS and JavaScript gaining hands-on experience. Used SQL queries for efficient data retrieval.",
   },
 ];
 
