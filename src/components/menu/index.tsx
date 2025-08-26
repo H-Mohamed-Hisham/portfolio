@@ -1,13 +1,13 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 
 // Icons
-import { LucideIcon } from "lucide-react";
+import { LucideIcon } from 'lucide-react';
 
 // Lib
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils';
 
 // Constants
-import { menu } from "@/constants/menu";
+import { menu } from '@/constants/menu';
 
 type Props = {
   label: string;
@@ -22,21 +22,26 @@ const MenuItem = ({ item, isActive }: { item: Props; isActive: boolean }) => {
     <Link
       to={link}
       className={cn(
-        "flex flex-col items-center border rounded-md p-2 text-sm md:text-base",
+        'flex flex-col items-center border rounded-md p-2 text-sm md:text-base',
         isActive
-          ? "bg-primary font-medium"
-          : "bg-secondary hover:bg-muted-foreground hover:text-accent"
+          ? 'bg-primary font-medium'
+          : 'bg-secondary hover:bg-muted-foreground hover:text-accent'
       )}
     >
-      <Icon className="w-4 h-4 md:w-5 md:h-5" />
-      <div>{label}</div>
+      <Icon
+        className={cn(
+          'w-4 h-4 md:w-5 md:h-5',
+          isActive ? 'text-secondary' : ''
+        )}
+      />
+      <div className={cn(isActive ? 'text-secondary' : '')}>{label}</div>
     </Link>
   );
 };
 
 export function Menu() {
   const { pathname } = useLocation();
-  const base_pathname = pathname.split("/")[1];
+  const base_pathname = pathname.split('/')[1];
 
   return (
     <div className="w-full flex justify-center items-center fixed bottom-0 my-0 z-10 h-[88px] bg-background">

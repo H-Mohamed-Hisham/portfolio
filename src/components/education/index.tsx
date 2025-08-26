@@ -1,8 +1,8 @@
 // Icons
-import { School, MapPin, Calendar, Globe } from "lucide-react";
+import { School, MapPin, Calendar, Globe } from 'lucide-react';
 
 // Data
-import { education, certification } from "@/data/education";
+import { education, courses } from '@/data/education';
 
 export function Education() {
   return (
@@ -52,14 +52,14 @@ export function Education() {
         </div>
       )}
 
-      {!certification.length ? null : (
+      {!courses.length ? null : (
         <div className="flex flex-col items-center gap-y-4 mt-10 mb-4 p-3">
           <p className="text-3xl font-bold text-primary text-center my-4">
-            Certification
+            Course
           </p>
 
           <div className="w-full max-w-md">
-            {certification.map((item, index) => (
+            {courses.map((item, index) => (
               <div key={index} className="flex gap-x-8">
                 {/* icon */}
                 <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-primary">
@@ -87,7 +87,7 @@ export function Education() {
                     <span>{item.year}</span>
                   </p>
                   <p className="text-base text-muted-foreground flex items-center gap-x-2">
-                    {item.location === "Online" ? (
+                    {item.location === 'Online' ? (
                       <Globe className="w-4 h-4" />
                     ) : (
                       <MapPin className="w-4 h-4" />
