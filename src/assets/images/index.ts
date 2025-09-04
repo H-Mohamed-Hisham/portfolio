@@ -47,6 +47,10 @@ import crypto_lens_dashboard from '@/assets/images/project/crypto-lens/crypto-le
 import crypto_lens_coin_analysis from '@/assets/images/project/crypto-lens/crypto-lens-coin-analysis.png';
 import crypto_lens_coin_comparison from '@/assets/images/project/crypto-lens/crypto-lens-coin-comparison.png';
 
+import agent_xyz_dashboard from '@/assets/images/project/agent-xyz/agent-xyz-dashboard.png';
+import agent_xyz_coin_analysis from '@/assets/images/project/agent-xyz/agent-xyz-coin-analysis.png';
+import agent_xyz_market_insights from '@/assets/images/project/agent-xyz/agent-xyz-market-insights.png';
+
 export {
   hisham,
   school,
@@ -84,4 +88,7 @@ export {
   crypto_lens_dashboard,
   crypto_lens_coin_analysis,
   crypto_lens_coin_comparison,
+  agent_xyz_dashboard,
+  agent_xyz_coin_analysis,
+  agent_xyz_market_insights,
 };
