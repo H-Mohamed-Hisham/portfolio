@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[[Live Demo]](https://h-mohamed-hisham.github.io/portfolio/)
 
-Currently, two official plugins are available:
+This is my **personal portfolio website** where I showcase my **projects, skills, and experience** as a web developer.  
+It serves as a central place to highlight the applications I've built and the technologies I work with.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🧑‍💻 **About Me** — Quick introduction and background.
+- 💼 **Projects Showcase** — Highlights my best projects with links to demos and source code.
+- 🛠️ **Tech Stack** — Overview of tools and technologies I use.
+- 🎓 **Education** — Academic background, degrees, and certifications.
+- 📩 **Contact Section** — Easy way to get in touch.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tech Stack
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Framework**: [React](https://react.dev/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Deployment**: [Github Pages](https://github.com/)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🔗 Live Demo
+
+🚀 **Visit My Portfolio** → [https://h-mohamed-hisham.github.io/portfolio/](https://h-mohamed-hisham.github.io/portfolio/)
+
+---
+
+## 📌 Project Purpose
+
+I built this portfolio to:
+
+- Showcase my **skills** and **projects**.
+- Provide recruiters and hiring managers with a quick way to learn about me.
+- Serve as a central hub for all my web development work.
+
+---
+
+Built with ❤️ by **[Mohamed Hisham](https://h-mohamed-hisham.github.io/portfolio/)**
