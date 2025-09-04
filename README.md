@@ -1,6 +1,6 @@
 # 🌐 My Portfolio
 
-[[Live Demo]](https://h-mohamed-hisham.github.io/portfolio/)
+[[Live Demo]](https://mohamedhisham95.github.io/portfolio/)
 
 This is my **personal portfolio website** where I showcase my **projects, skills, and experience** as a web developer.  
 It serves as a central place to highlight the applications I've built and the technologies I work with.
@@ -27,7 +27,7 @@ It serves as a central place to highlight the applications I've built and the te
 
 ## 🔗 Live Demo
 
-🚀 **Visit My Portfolio** → [https://h-mohamed-hisham.github.io/portfolio/](https://h-mohamed-hisham.github.io/portfolio/)
+🚀 **Visit My Portfolio** → [https://mohamedhisham95.github.io/portfolio/](https://mohamedhisham95.github.io/portfolio/)
 
 ---
 
@@ -41,4 +41,4 @@ I built this portfolio to:
 
 ---
 
-Built with ❤️ by **[Mohamed Hisham](https://h-mohamed-hisham.github.io/portfolio/)**
+Built with ❤️ by **[Mohamed Hisham](https://mohamedhisham95.github.io/portfolio/)**
