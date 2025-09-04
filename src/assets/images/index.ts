@@ -1,51 +1,51 @@
 // About
-import hisham from "@/assets/images/about/hisham.png";
+import hisham from '@/assets/images/about/hisham.png';
 
 // Education
-import school from "@/assets/images/education/school.jpg";
-import college from "@/assets/images/education/college.png";
-import udemy from "@/assets/images/education/udemy.png";
+import school from '@/assets/images/education/school.jpg';
+import college from '@/assets/images/education/college.png';
+import udemy from '@/assets/images/education/udemy.png';
 
 // Company
-import software_cubes from "@/assets/images/company/software-cubes.png";
-import clover_design_group from "@/assets/images/company/clover-design-group.jpg";
-import ampcome from "@/assets/images/company/ampcome.png";
+import software_cubes from '@/assets/images/company/software-cubes.png';
+import clover_design_group from '@/assets/images/company/clover-design-group.jpg';
+import ampcome from '@/assets/images/company/ampcome.png';
 
 // Project
-import sony_desktop from "@/assets/images/project/sony/desktop.png";
-import sony_desktop_2 from "@/assets/images/project/sony/desktop-2.png";
-import sony_desktop_3 from "@/assets/images/project/sony/desktop-3.png";
-import sony_mobile from "@/assets/images/project/sony/mobile.png";
+import sony_desktop from '@/assets/images/project/sony/desktop.png';
+import sony_desktop_2 from '@/assets/images/project/sony/desktop-2.png';
+import sony_desktop_3 from '@/assets/images/project/sony/desktop-3.png';
+import sony_mobile from '@/assets/images/project/sony/mobile.png';
 
-import h_property_home from "@/assets/images/project/h-property/home.jpg";
-import h_property_home_2 from "@/assets/images/project/h-property/home-2.jpg";
-import h_property_property from "@/assets/images/project/h-property/property.jpg";
-import h_property_property_2 from "@/assets/images/project/h-property/property-2.jpg";
-import h_property_saved_property from "@/assets/images/project/h-property/saved-property.jpg";
-import h_property_profile from "@/assets/images/project/h-property/profile.jpg";
+import h_property_home from '@/assets/images/project/h-property/home.jpg';
+import h_property_home_2 from '@/assets/images/project/h-property/home-2.jpg';
+import h_property_property from '@/assets/images/project/h-property/property.jpg';
+import h_property_property_2 from '@/assets/images/project/h-property/property-2.jpg';
+import h_property_saved_property from '@/assets/images/project/h-property/saved-property.jpg';
+import h_property_profile from '@/assets/images/project/h-property/profile.jpg';
 
-import h_shop_home from "@/assets/images/project/h-shop/home.jpg";
-import h_shop_product from "@/assets/images/project/h-shop/product.jpg";
-import h_shop_cart from "@/assets/images/project/h-shop/cart.jpg";
-import h_shop_checkout_adress from "@/assets/images/project/h-shop/checkout-address.jpg";
-import h_shop_checkout_payment_method from "@/assets/images/project/h-shop/checkout-payment-method.jpg";
-import h_shop_checkout_place_order from "@/assets/images/project/h-shop/checkout-place-order.jpg";
-import h_shop_stripe_payment from "@/assets/images/project/h-shop/stripe-payment.jpg";
-import h_shop_my_order from "@/assets/images/project/h-shop/my-order.jpg";
-import h_shop_my_orders from "@/assets/images/project/h-shop/my-orders.jpg";
-import h_shop_change_password from "@/assets/images/project/h-shop/change-password.jpg";
-import h_shop_admin_dashboard from "@/assets/images/project/h-shop/admin-dashboard.jpg";
-import h_shop_admin_product_list from "@/assets/images/project/h-shop/admin-product-list.jpg";
-import h_shop_admin_order_list from "@/assets/images/project/h-shop/admin-order-list.jpg";
+import h_shop_home from '@/assets/images/project/h-shop/home.jpg';
+import h_shop_product from '@/assets/images/project/h-shop/product.jpg';
+import h_shop_cart from '@/assets/images/project/h-shop/cart.jpg';
+import h_shop_checkout_adress from '@/assets/images/project/h-shop/checkout-address.jpg';
+import h_shop_checkout_payment_method from '@/assets/images/project/h-shop/checkout-payment-method.jpg';
+import h_shop_checkout_place_order from '@/assets/images/project/h-shop/checkout-place-order.jpg';
+import h_shop_stripe_payment from '@/assets/images/project/h-shop/stripe-payment.jpg';
+import h_shop_my_order from '@/assets/images/project/h-shop/my-order.jpg';
+import h_shop_my_orders from '@/assets/images/project/h-shop/my-orders.jpg';
+import h_shop_change_password from '@/assets/images/project/h-shop/change-password.jpg';
+import h_shop_admin_dashboard from '@/assets/images/project/h-shop/admin-dashboard.jpg';
+import h_shop_admin_product_list from '@/assets/images/project/h-shop/admin-product-list.jpg';
+import h_shop_admin_order_list from '@/assets/images/project/h-shop/admin-order-list.jpg';
 
-import h_stock_portfolio_dashboard from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-dashboard.png";
-import h_stock_portfolio_transactions from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-transactions.png";
-import h_stock_portfolio_create_transaction from "@/assets/images/project/h-stock-portfolio/h-stock-portfolio-create-transaction.png";
+import spechtral_home from '@/assets/images/project/spechtral/home.png';
 
-import spechtral_home from "@/assets/images/project/spechtral/home.png";
+import strike_home from '@/assets/images/project/strike/strike-home.png';
+import strike_advance_decline from '@/assets/images/project/strike/strike-advance-decline.png';
 
-import strike_home from "@/assets/images/project/strike/strike-home.png";
-import strike_advance_decline from "@/assets/images/project/strike/strike-advance-decline.png";
+import crypto_lens_dashboard from '@/assets/images/project/crypto-lens/crypto-lens-dashboard.png';
+import crypto_lens_coin_analysis from '@/assets/images/project/crypto-lens/crypto-lens-coin-analysis.png';
+import crypto_lens_coin_comparison from '@/assets/images/project/crypto-lens/crypto-lens-coin-comparison.png';
 
 export {
   hisham,
@@ -78,10 +78,10 @@ export {
   h_shop_admin_dashboard,
   h_shop_admin_product_list,
   h_shop_admin_order_list,
-  h_stock_portfolio_dashboard,
-  h_stock_portfolio_transactions,
-  h_stock_portfolio_create_transaction,
   spechtral_home,
   strike_home,
   strike_advance_decline,
+  crypto_lens_dashboard,
+  crypto_lens_coin_analysis,
+  crypto_lens_coin_comparison,
 };
